@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: pink;
+}
+
+.header,
+.section-one-container,
+.img-container {
+  display: block;
+  margin: 0 auto;
+}
+.header,
+.section-one-container {
+  width: 550px;
+  background-color: white;
+}
+.header {
+  height: 81px;
+
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > img {
+  object-fit: contain;
+}
+
+.section-one-container {
+  height: 892px;
+}
+.section-one-inner-container {
+  position: relative;
+}
+
+.section-one-img {
+  width: 534px;
+  height: 751px;
+
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+.section-one-container {
+  position: relative;
+}
+
+.heading,
+.explaination {
+  font-size: 2rem;
+  margin-left: 0.5rem;
+  position: absolute;
+  left: 1rem;
+}
+
+.heading {
+  color: rgba(248, 248, 248, 1);
+
+  font-weight: bolder;
+  bottom: 15rem;
+}
+
+.explaination {
+  color: rgba(183, 183, 183, 1);
+  bottom: 9rem;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+  padding: 1rem;
+}
+.cross-icon,
+.heart-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 91px;
+  height: 91px;
+  box-shadow: 0px 10px 20px 0px rgba(233, 233, 234, 1);
+  border: 0px 10px 20px 0px rgba(233, 233, 234, 1);
+  border-radius: 50%;
+}
+
+.heart-icon:hover,
+.heart-icon:focus {
+  background: rgba(219, 255, 244, 1);
+}
+
+.cross-icon:hover,
+.cross-icon:focus {
+  background: rgba(255, 231, 239, 1);
+}
+
+.badge {
+  width: 233.91134328682563px;
+  height: 116.26363216298239px;
+  position: absolute;
+  top: 121.9556884765625px;
+  left: 14px;
+  border-radius: 10.380681991577148px;
+  border: 8.304545402526855px;
+
+  transform: rotate(-30deg);
+}
+
+/* .badge-like {
+  display: none;
+}
+.badge-nope {
+  display: none;
+} */
+.badge {
+  display: none;
+}
